@@ -19,10 +19,10 @@ async fn main() {
     let port = get_env("BE_PORT", "3000");
     let address = format!("{}:{}", host, port);
 
+    println!("Server running on http://{}", address);
+
     axum::Server::bind(&address.parse().unwrap())
         .serve(app.into_make_service())
         .await
         .unwrap();
-
-    println!("Server running on http://{}", address);
 }
