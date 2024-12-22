@@ -17,3 +17,14 @@ pub struct Match {
 pub struct MatchReq {
     pub status: Option<String>,
 }
+
+#[derive(Serialize, Deserialize)]
+pub struct MatchStats {
+    pub id: u64,
+    pub match_id: u64,
+    pub possession: String,
+    pub shots_on_target: i32,
+    pub passes: i32,
+    pub corners: i32,
+    pub fouls: i32,
+}

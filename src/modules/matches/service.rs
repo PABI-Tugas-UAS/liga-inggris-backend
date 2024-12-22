@@ -24,20 +24,22 @@ pub fn get_matches(req: MatchReq) -> Vec<Value> {
 }
 
 pub fn get_match_by_id(id: u64) -> Option<Value> {
-    repository::get_match_by_id(id).map(|club| {
-        let home_club = club_service::get_club_by_id(club.home_club_id);
-        let away_club = club_service::get_club_by_id(club.away_club_id);
+    repository::get_match_by_id(id).map(|_match| {
+        let home_club = club_service::get_club_by_id(_match.home_club_id);
+        let away_club = club_service::get_club_by_id(_match.away_club_id);
+        let match_stats = repository::get_match_stats(_match.id);
 
         serde_json::json!({
-            "id": club.id,
+            "id": _match.id,
             "home_club": home_club,
             "away_club": away_club,
-            "date": club.date,
-            "time": club.time,
-            "location": club.location,
-            "status": club.status,
-            "home_score": club.home_score,
-            "away_score": club.away_score,
+            "date": _match.date,
+            "time": _match.time,
+            "location": _match.location,
+            "status": _match.status,
+            "home_score": _match.home_score,
+            "away_score": _match.away_score,
+            "match_stats": match_stats,
         })
     })
 }
