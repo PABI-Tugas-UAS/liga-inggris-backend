@@ -1,0 +1,772 @@
+[
+  {
+    "id": 1,
+    "club_id": 1,
+    "name": "Aaron Ramsdale",
+    "position": "Goalkeeper",
+    "age": 25
+  },
+  {
+    "id": 2,
+    "club_id": 1,
+    "name": "Ben White",
+    "position": "Defender",
+    "age": 26
+  },
+  {
+    "id": 3,
+    "club_id": 1,
+    "name": "Gabriel Magalhães",
+    "position": "Defender",
+    "age": 25
+  },
+  {
+    "id": 4,
+    "club_id": 1,
+    "name": "William Saliba",
+    "position": "Defender",
+    "age": 23
+  },
+  {
+    "id": 5,
+    "club_id": 1,
+    "name": "Oleksandr Zinchenko",
+    "position": "Defender",
+    "age": 26
+  },
+  {
+    "id": 6,
+    "club_id": 1,
+    "name": "Thomas Partey",
+    "position": "Midfielder",
+    "age": 30
+  },
+  {
+    "id": 7,
+    "club_id": 1,
+    "name": "Martin Ødegaard",
+    "position": "Midfielder",
+    "age": 25
+  },
+  {
+    "id": 8,
+    "club_id": 1,
+    "name": "Bukayo Saka",
+    "position": "Forward",
+    "age": 22
+  },
+  {
+    "id": 9,
+    "club_id": 1,
+    "name": "Gabriel Jesus",
+    "position": "Forward",
+    "age": 27
+  },
+  {
+    "id": 10,
+    "club_id": 1,
+    "name": "Leandro Trossard",
+    "position": "Forward",
+    "age": 29
+  },
+  {
+    "id": 11,
+    "club_id": 1,
+    "name": "Emile Smith Rowe",
+    "position": "Midfielder",
+    "age": 23
+  },
+  {
+    "id": 12,
+    "club_id": 2,
+    "name": "Neto",
+    "position": "Goalkeeper",
+    "age": 34
+  },
+  {
+    "id": 13,
+    "club_id": 2,
+    "name": "Lloyd Kelly",
+    "position": "Defender",
+    "age": 25
+  },
+  {
+    "id": 14,
+    "club_id": 2,
+    "name": "Chris Mepham",
+    "position": "Defender",
+    "age": 26
+  },
+  {
+    "id": 15,
+    "club_id": 2,
+    "name": "Marcos Senesi",
+    "position": "Defender",
+    "age": 27
+  },
+  {
+    "id": 16,
+    "club_id": 2,
+    "name": "Adam Smith",
+    "position": "Defender",
+    "age": 32
+  },
+  {
+    "id": 17,
+    "club_id": 2,
+    "name": "Philip Billing",
+    "position": "Midfielder",
+    "age": 27
+  },
+  {
+    "id": 18,
+    "club_id": 2,
+    "name": "Lewis Cook",
+    "position": "Midfielder",
+    "age": 27
+  },
+  {
+    "id": 19,
+    "club_id": 2,
+    "name": "Dominic Solanke",
+    "position": "Forward",
+    "age": 26
+  },
+  {
+    "id": 20,
+    "club_id": 2,
+    "name": "Ryan Christie",
+    "position": "Midfielder",
+    "age": 28
+  },
+  {
+    "id": 21,
+    "club_id": 2,
+    "name": "David Brooks",
+    "position": "Forward",
+    "age": 26
+  },
+  {
+    "id": 22,
+    "club_id": 2,
+    "name": "Kieffer Moore",
+    "position": "Forward",
+    "age": 31
+  },
+  {
+    "id": 23,
+    "club_id": 3,
+    "name": "David Raya",
+    "position": "Goalkeeper",
+    "age": 28
+  },
+  {
+    "id": 24,
+    "club_id": 3,
+    "name": "Ethan Pinnock",
+    "position": "Defender",
+    "age": 30
+  },
+  {
+    "id": 25,
+    "club_id": 3,
+    "name": "Ben Mee",
+    "position": "Defender",
+    "age": 34
+  },
+  {
+    "id": 26,
+    "club_id": 3,
+    "name": "Rico Henry",
+    "position": "Defender",
+    "age": 26
+  },
+  {
+    "id": 27,
+    "club_id": 3,
+    "name": "Christian Nørgaard",
+    "position": "Midfielder",
+    "age": 29
+  },
+  {
+    "id": 28,
+    "club_id": 3,
+    "name": "Mathias Jensen",
+    "position": "Midfielder",
+    "age": 28
+  },
+  {
+    "id": 29,
+    "club_id": 3,
+    "name": "Bryan Mbeumo",
+    "position": "Forward",
+    "age": 24
+  },
+  {
+    "id": 30,
+    "club_id": 3,
+    "name": "Ivan Toney",
+    "position": "Forward",
+    "age": 27
+  },
+  {
+    "id": 31,
+    "club_id": 3,
+    "name": "Yoane Wissa",
+    "position": "Forward",
+    "age": 27
+  },
+  {
+    "id": 32,
+    "club_id": 3,
+    "name": "Vitaly Janelt",
+    "position": "Midfielder",
+    "age": 25
+  },
+  {
+    "id": 33,
+    "club_id": 3,
+    "name": "Sergi Canós",
+    "position": "Midfielder",
+    "age": 26
+  },
+  {
+    "id": 34,
+    "club_id": 4,
+    "name": "Jason Steele",
+    "position": "Goalkeeper",
+    "age": 33
+  },
+  {
+    "id": 35,
+    "club_id": 4,
+    "name": "Lewis Dunk",
+    "position": "Defender",
+    "age": 32
+  },
+  {
+    "id": 36,
+    "club_id": 4,
+    "name": "Pervis Estupiñán",
+    "position": "Defender",
+    "age": 25
+  },
+  {
+    "id": 37,
+    "club_id": 4,
+    "name": "Tariq Lamptey",
+    "position": "Defender",
+    "age": 23
+  },
+  {
+    "id": 38,
+    "club_id": 4,
+    "name": "Pascal Groß",
+    "position": "Midfielder",
+    "age": 33
+  },
+  {
+    "id": 39,
+    "club_id": 4,
+    "name": "Moises Caicedo",
+    "position": "Midfielder",
+    "age": 22
+  },
+  {
+    "id": 40,
+    "club_id": 4,
+    "name": "Alexis Mac Allister",
+    "position": "Midfielder",
+    "age": 25
+  },
+  {
+    "id": 41,
+    "club_id": 4,
+    "name": "Kaoru Mitoma",
+    "position": "Forward",
+    "age": 26
+  },
+  {
+    "id": 42,
+    "club_id": 4,
+    "name": "Evan Ferguson",
+    "position": "Forward",
+    "age": 19
+  },
+  {
+    "id": 43,
+    "club_id": 4,
+    "name": "Danny Welbeck",
+    "position": "Forward",
+    "age": 33
+  },
+  {
+    "id": 44,
+    "club_id": 4,
+    "name": "Solly March",
+    "position": "Midfielder",
+    "age": 29
+  },
+  {
+    "id": 45,
+    "club_id": 5,
+    "name": "Kepa Arrizabalaga",
+    "position": "Goalkeeper",
+    "age": 29
+  },
+  {
+    "id": 46,
+    "club_id": 5,
+    "name": "Thiago Silva",
+    "position": "Defender",
+    "age": 39
+  },
+  {
+    "id": 47,
+    "club_id": 5,
+    "name": "Reece James",
+    "position": "Defender",
+    "age": 24
+  },
+  {
+    "id": 48,
+    "club_id": 5,
+    "name": "Ben Chilwell",
+    "position": "Defender",
+    "age": 27
+  },
+  {
+    "id": 49,
+    "club_id": 5,
+    "name": "Enzo Fernández",
+    "position": "Midfielder",
+    "age": 22
+  },
+  {
+    "id": 50,
+    "club_id": 5,
+    "name": "Conor Gallagher",
+    "position": "Midfielder",
+    "age": 23
+  },
+  {
+    "id": 51,
+    "club_id": 5,
+    "name": "Noni Madueke",
+    "position": "Forward",
+    "age": 21
+  },
+  {
+    "id": 52,
+    "club_id": 5,
+    "name": "Raheem Sterling",
+    "position": "Forward",
+    "age": 29
+  },
+  {
+    "id": 53,
+    "club_id": 5,
+    "name": "Christopher Nkunku",
+    "position": "Forward",
+    "age": 25
+  },
+  {
+    "id": 54,
+    "club_id": 5,
+    "name": "Armando Broja",
+    "position": "Forward",
+    "age": 22
+  },
+  {
+    "id": 55,
+    "club_id": 5,
+    "name": "Marc Cucurella",
+    "position": "Defender",
+    "age": 25
+  },
+  {
+    "id": 56,
+    "club_id": 6,
+    "name": "Jordan Pickford",
+    "position": "Goalkeeper",
+    "age": 29
+  },
+  {
+    "id": 57,
+    "club_id": 6,
+    "name": "James Tarkowski",
+    "position": "Defender",
+    "age": 31
+  },
+  {
+    "id": 58,
+    "club_id": 6,
+    "name": "Michael Keane",
+    "position": "Defender",
+    "age": 30
+  },
+  {
+    "id": 59,
+    "club_id": 6,
+    "name": "Nathan Patterson",
+    "position": "Defender",
+    "age": 22
+  },
+  {
+    "id": 60,
+    "club_id": 6,
+    "name": "Vitaliy Mykolenko",
+    "position": "Defender",
+    "age": 24
+  },
+  {
+    "id": 61,
+    "club_id": 6,
+    "name": "Abdoulaye Doucouré",
+    "position": "Midfielder",
+    "age": 30
+  },
+  {
+    "id": 62,
+    "club_id": 6,
+    "name": "Amadou Onana",
+    "position": "Midfielder",
+    "age": 22
+  },
+  {
+    "id": 63,
+    "club_id": 6,
+    "name": "Alex Iwobi",
+    "position": "Midfielder",
+    "age": 27
+  },
+  {
+    "id": 64,
+    "club_id": 6,
+    "name": "Dominic Calvert-Lewin",
+    "position": "Forward",
+    "age": 26
+  },
+  {
+    "id": 65,
+    "club_id": 6,
+    "name": "Demarai Gray",
+    "position": "Forward",
+    "age": 27
+  },
+  {
+    "id": 66,
+    "club_id": 6,
+    "name": "Neal Maupay",
+    "position": "Forward",
+    "age": 27
+  },
+  {
+    "id": 67,
+    "club_id": 7,
+    "name": "Alisson Becker",
+    "position": "Goalkeeper",
+    "age": 31
+  },
+  {
+    "id": 68,
+    "club_id": 7,
+    "name": "Virgil van Dijk",
+    "position": "Defender",
+    "age": 32
+  },
+  {
+    "id": 69,
+    "club_id": 7,
+    "name": "Trent Alexander-Arnold",
+    "position": "Defender",
+    "age": 25
+  },
+  {
+    "id": 70,
+    "club_id": 7,
+    "name": "Andrew Robertson",
+    "position": "Defender",
+    "age": 30
+  },
+  {
+    "id": 71,
+    "club_id": 7,
+    "name": "Joel Matip",
+    "position": "Defender",
+    "age": 32
+  },
+  {
+    "id": 72,
+    "club_id": 7,
+    "name": "Fabinho",
+    "position": "Midfielder",
+    "age": 30
+  },
+  {
+    "id": 73,
+    "club_id": 7,
+    "name": "Thiago Alcântara",
+    "position": "Midfielder",
+    "age": 32
+  },
+  {
+    "id": 74,
+    "club_id": 7,
+    "name": "Mohamed Salah",
+    "position": "Forward",
+    "age": 31
+  },
+  {
+    "id": 75,
+    "club_id": 7,
+    "name": "Darwin Núñez",
+    "position": "Forward",
+    "age": 24
+  },
+  {
+    "id": 76,
+    "club_id": 7,
+    "name": "Diogo Jota",
+    "position": "Forward",
+    "age": 27
+  },
+  {
+    "id": 77,
+    "club_id": 7,
+    "name": "Luis Díaz",
+    "position": "Forward",
+    "age": 27
+  },
+  {
+    "id": 78,
+    "club_id": 8,
+    "name": "Andre Onana",
+    "position": "Goalkeeper",
+    "age": 27
+  },
+  {
+    "id": 79,
+    "club_id": 8,
+    "name": "Raphael Varane",
+    "position": "Defender",
+    "age": 30
+  },
+  {
+    "id": 80,
+    "club_id": 8,
+    "name": "Lisandro Martínez",
+    "position": "Defender",
+    "age": 25
+  },
+  {
+    "id": 81,
+    "club_id": 8,
+    "name": "Luke Shaw",
+    "position": "Defender",
+    "age": 28
+  },
+  {
+    "id": 82,
+    "club_id": 8,
+    "name": "Casemiro",
+    "position": "Midfielder",
+    "age": 31
+  },
+  {
+    "id": 83,
+    "club_id": 8,
+    "name": "Bruno Fernandes",
+    "position": "Midfielder",
+    "age": 29
+  },
+  {
+    "id": 84,
+    "club_id": 8,
+    "name": "Christian Eriksen",
+    "position": "Midfielder",
+    "age": 31
+  },
+  {
+    "id": 85,
+    "club_id": 8,
+    "name": "Marcus Rashford",
+    "position": "Forward",
+    "age": 26
+  },
+  {
+    "id": 86,
+    "club_id": 8,
+    "name": "Anthony Martial",
+    "position": "Forward",
+    "age": 28
+  },
+  {
+    "id": 87,
+    "club_id": 8,
+    "name": "Jadon Sancho",
+    "position": "Forward",
+    "age": 23
+  },
+  {
+    "id": 88,
+    "club_id": 8,
+    "name": "Mason Mount",
+    "position": "Midfielder",
+    "age": 24
+  },
+  {
+    "id": 89,
+    "club_id": 9,
+    "name": "Nick Pope",
+    "position": "Goalkeeper",
+    "age": 31
+  },
+  {
+    "id": 90,
+    "club_id": 9,
+    "name": "Kieran Trippier",
+    "position": "Defender",
+    "age": 33
+  },
+  {
+    "id": 91,
+    "club_id": 9,
+    "name": "Sven Botman",
+    "position": "Defender",
+    "age": 23
+  },
+  {
+    "id": 92,
+    "club_id": 9,
+    "name": "Fabian Schär",
+    "position": "Defender",
+    "age": 31
+  },
+  {
+    "id": 93,
+    "club_id": 9,
+    "name": "Dan Burn",
+    "position": "Defender",
+    "age": 31
+  },
+  {
+    "id": 94,
+    "club_id": 9,
+    "name": "Joelinton",
+    "position": "Midfielder",
+    "age": 27
+  },
+  {
+    "id": 95,
+    "club_id": 9,
+    "name": "Bruno Guimarães",
+    "position": "Midfielder",
+    "age": 26
+  },
+  {
+    "id": 96,
+    "club_id": 9,
+    "name": "Miguel Almirón",
+    "position": "Forward",
+    "age": 29
+  },
+  {
+    "id": 97,
+    "club_id": 9,
+    "name": "Callum Wilson",
+    "position": "Forward",
+    "age": 31
+  },
+  {
+    "id": 98,
+    "club_id": 9,
+    "name": "Alexander Isak",
+    "position": "Forward",
+    "age": 24
+  },
+  {
+    "id": 99,
+    "club_id": 10,
+    "name": "Guglielmo Vicario",
+    "position": "Goalkeeper",
+    "age": 27
+  },
+  {
+    "id": 100,
+    "club_id": 10,
+    "name": "Cristian Romero",
+    "position": "Defender",
+    "age": 25
+  },
+  {
+    "id": 101,
+    "club_id": 10,
+    "name": "Ben Davies",
+    "position": "Defender",
+    "age": 30
+  },
+  {
+    "id": 102,
+    "club_id": 10,
+    "name": "Pierre-Emile Højbjerg",
+    "position": "Midfielder",
+    "age": 28
+  },
+  {
+    "id": 103,
+    "club_id": 10,
+    "name": "Yves Bissouma",
+    "position": "Midfielder",
+    "age": 27
+  },
+  {
+    "id": 104,
+    "club_id": 10,
+    "name": "James Maddison",
+    "position": "Midfielder",
+    "age": 27
+  },
+  {
+    "id": 105,
+    "club_id": 10,
+    "name": "Son Heung-min",
+    "position": "Forward",
+    "age": 31
+  },
+  {
+    "id": 106,
+    "club_id": 10,
+    "name": "Richarlison",
+    "position": "Forward",
+    "age": 26
+  },
+  {
+    "id": 107,
+    "club_id": 10,
+    "name": "Dejan Kulusevski",
+    "position": "Forward",
+    "age": 23
+  },
+  {
+    "id": 108,
+    "club_id": 10,
+    "name": "Emerson Royal",
+    "position": "Defender",
+    "age": 24
+  },
+  {
+    "id": 109,
+    "club_id": 10,
+    "name": "Giovani Lo Celso",
+    "position": "Midfielder",
+    "age": 27
+  },
+  {
+    "id": 110,
+    "club_id": 10,
+    "name": "Pedro Porro",
+    "position": "Defender",
+    "age": 24
+  }
+]

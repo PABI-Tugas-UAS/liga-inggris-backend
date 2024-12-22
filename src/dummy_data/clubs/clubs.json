@@ -1,0 +1,118 @@
+[
+  {
+    "id": 1,
+    "name": "Arsenal",
+    "coach": "Mikel Arteta",
+    "founded_year": 1886,
+    "achievements": [
+      "Premier League Champions: 13 times",
+      "FA Cup Winners: 14 times",
+      "EFL Cup Winners: 2 times",
+      "UEFA Cup Winners' Cup: 1 time"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg"
+  },
+  {
+    "id": 2,
+    "name": "Bournemouth",
+    "coach": "Andoni Iraola",
+    "founded_year": 1899,
+    "achievements": ["EFL Championship Runners-Up: 1 time"],
+    "logo": "https://upload.wikimedia.org/wikipedia/en/e/e5/AFC_Bournemouth_%282013%29.svg"
+  },
+  {
+    "id": 3,
+    "name": "Brentford",
+    "coach": "Thomas Frank",
+    "founded_year": 1889,
+    "achievements": ["EFL Championship Play-Off Winners: 1 time"],
+    "logo": "https://upload.wikimedia.org/wikipedia/en/2/2a/Brentford_FC_crest.svg"
+  },
+  {
+    "id": 4,
+    "name": "Brighton & Hove Albion",
+    "coach": "Roberto De Zerbi",
+    "founded_year": 1901,
+    "achievements": [
+      "FA Cup Runners-Up: 1 time",
+      "EFL Championship Runners-Up: 1 time"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/en/f/fd/Brighton_%26_Hove_Albion_logo.svg"
+  },
+  {
+    "id": 5,
+    "name": "Chelsea",
+    "coach": "Mauricio Pochettino",
+    "founded_year": 1905,
+    "achievements": [
+      "Premier League Champions: 6 times",
+      "FA Cup Winners: 8 times",
+      "EFL Cup Winners: 5 times",
+      "UEFA Champions League Winners: 2 times",
+      "UEFA Europa League Winners: 2 times"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg"
+  },
+  {
+    "id": 6,
+    "name": "Everton",
+    "coach": "Sean Dyche",
+    "founded_year": 1878,
+    "achievements": [
+      "Premier League Champions: 9 times",
+      "FA Cup Winners: 5 times",
+      "EFL Cup Runners-Up: 2 times"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/en/7/7c/Everton_FC_logo.svg"
+  },
+  {
+    "id": 7,
+    "name": "Liverpool",
+    "coach": "Jürgen Klopp",
+    "founded_year": 1892,
+    "achievements": [
+      "Premier League Champions: 19 times",
+      "FA Cup Winners: 8 times",
+      "EFL Cup Winners: 9 times",
+      "UEFA Champions League Winners: 6 times"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg"
+  },
+  {
+    "id": 8,
+    "name": "Manchester United",
+    "coach": "Erik ten Hag",
+    "founded_year": 1878,
+    "achievements": [
+      "Premier League Champions: 20 times",
+      "FA Cup Winners: 12 times",
+      "EFL Cup Winners: 6 times",
+      "UEFA Champions League Winners: 3 times"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg"
+  },
+  {
+    "id": 9,
+    "name": "Newcastle United",
+    "coach": "Eddie Howe",
+    "founded_year": 1892,
+    "achievements": [
+      "Premier League Champions: 4 times",
+      "FA Cup Winners: 6 times"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/en/5/56/Newcastle_United_Logo.svg"
+  },
+  {
+    "id": 10,
+    "name": "Tottenham Hotspur",
+    "coach": "Ange Postecoglou",
+    "founded_year": 1882,
+    "achievements": [
+      "Premier League Champions: 2 times",
+      "FA Cup Winners: 8 times",
+      "EFL Cup Winners: 4 times",
+      "UEFA Cup Winners: 2 times"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/en/b/b4/Tottenham_Hotspur.svg"
+  }
+]
