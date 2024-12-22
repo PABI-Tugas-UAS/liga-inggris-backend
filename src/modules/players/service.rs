@@ -20,10 +20,12 @@ pub fn get_players(req: PlayerReq) -> Vec<Value> {
 }
 
 pub fn get_player_by_id(id: u64) -> Option<Value> {
+    let club = club_service::get_club_by_id(id);
+
     repository::get_player_by_id(id).map(|player| {
         serde_json::json!({
             "id": player.id,
-            "club": club_service::get_club_by_id(player.club_id).unwrap_or_else(|| serde_json::json!({})),
+            "club": club,
             "name": player.name,
             "position": player.position,
             "age": player.age,

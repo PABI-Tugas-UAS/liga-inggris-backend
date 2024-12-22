@@ -12,4 +12,5 @@ pub struct Player {
 #[derive(Deserialize)]
 pub struct PlayerReq {
     pub club_id: Option<u64>,
+    pub name: Option<String>,
 }

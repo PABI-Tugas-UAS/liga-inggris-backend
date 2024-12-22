@@ -1,14 +1,21 @@
 use super::entity::{Player, PlayerReq};
-use crate::common::utils::dummy::read_dummy;
+use crate::common::utils::{compare::compare_lcase, dummy::read_dummy};
 
 pub fn get_players(req: Option<PlayerReq>) -> Vec<Player> {
     read_dummy::<Vec<Player>>("players/players.json")
         .into_iter()
         .filter(|player| match &req {
-            Some(filter) => match filter.club_id {
-                Some(id) => player.club_id == id,
-                None => true,
-            },
+            Some(filter) => {
+                let matches_club = match filter.club_id {
+                    Some(id) => player.club_id == id,
+                    None => true,
+                };
+                let matches_name = match &filter.name {
+                    Some(name) => compare_lcase(&player.name, &name),
+                    None => true,
+                };
+                matches_club && matches_name
+            }
             None => true,
         })
         .collect()
