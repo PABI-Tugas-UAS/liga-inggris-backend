@@ -12,6 +12,7 @@ pub fn register() -> Router {
     Router::new()
         .route("/clubs", get(get_clubs))
         .route("/clubs/:id", get(get_club_by_id))
+        .route("/top-clubs", get(get_top_clubs))
 }
 
 pub async fn get_clubs(Query(req): Query<ClubReq>) -> Json<BaseResponse<Vec<serde_json::Value>>> {
@@ -30,4 +31,10 @@ pub async fn get_club_by_id(Path(id): Path<u64>) -> Json<BaseResponse<serde_json
             serde_json::json!({}),
         )),
     }
+}
+
+pub async fn get_top_clubs() -> Json<BaseResponse<Vec<serde_json::Value>>> {
+    let data = service::get_top_clubs();
+
+    Json(BaseResponse::success("Success fetching top clubs", data))
 }

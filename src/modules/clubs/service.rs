@@ -31,3 +31,21 @@ pub fn get_club_by_id(id: u64) -> Option<Value> {
         })
     })
 }
+
+pub fn get_top_clubs() -> Vec<Value> {
+    let clubs = repository::get_top_clubs();
+
+    clubs
+        .into_iter()
+        .map(|club| {
+            serde_json::json!({
+                "id": club.id,
+                "name": club.name,
+                "coach": club.coach,
+                "founded_year": club.founded_year,
+                "achievements": club.achievements,
+                "logo": club.logo,
+            })
+        })
+        .collect()
+}
