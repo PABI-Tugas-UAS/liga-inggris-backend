@@ -4,20 +4,22 @@ use serde_json::Value;
 
 pub fn get_matches(req: MatchReq) -> Vec<Value> {
     let matches = repository::get_matches(Some(req));
-
     matches
         .into_iter()
-        .map(|club| {
+        .map(|_match| {
+            let home_club = club_service::get_club_by_id(_match.home_club_id);
+            let away_club = club_service::get_club_by_id(_match.away_club_id);
+
             serde_json::json!({
-                "id": club.id,
-                "home_club_id": club.home_club_id,
-                "away_club_id": club.away_club_id,
-                "date": club.date,
-                "time": club.time,
-                "location": club.location,
-                "status": club.status,
-                "home_score": club.home_score,
-                "away_score": club.away_score,
+                "id": _match.id,
+                "home_club": home_club,
+                "away_club": away_club,
+                "date": _match.date,
+                "time": _match.time,
+                "location": _match.location,
+                "status": _match.status,
+                "home_score": _match.home_score,
+                "away_score": _match.away_score,
             })
         })
         .collect()

@@ -190,10 +190,31 @@ Filter param: `?status={finished|upcoming|current}`
   "message": "Success fetching matches", // string
   "data": [                              // array
     {
-      "away_club_id": 2,                // int
+      "away_club": {                      // object
+        "achievements": [                 // array of strings
+          "EFL Championship Runners-Up: 1 time"
+        ],
+        "coach": "Andoni Iraola",        // string
+        "founded_year": 1899,            // int
+        "id": 2,                         // int
+        "logo": "https://xx.svg",        // string (URL, svg format)
+        "name": "Bournemouth"            // string
+      },
       "away_score": 1,                  // int
       "date": "2024-11-15",             // string (date format: YYYY-MM-DD)
-      "home_club_id": 1,                // int
+      "home_club": {                      // object
+        "achievements": [                 // array of strings
+          "Premier League Champions: 13 times",
+          "FA Cup Winners: 14 times",
+          "EFL Cup Winners: 2 times",
+          "UEFA Cup Winners' Cup: 1 time"
+        ],
+        "coach": "Mikel Arteta",         // string
+        "founded_year": 1886,            // int
+        "id": 1,                         // int
+        "logo": "https://xx.svg",        // string (URL, svg format)
+        "name": "Arsenal"                // string
+      },
       "home_score": 3,                  // int
       "id": 1,                          // int
       "location": "Emirates Stadium",   // string
