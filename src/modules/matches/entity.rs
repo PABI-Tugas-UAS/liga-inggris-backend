@@ -22,9 +22,28 @@ pub struct MatchReq {
 pub struct MatchStats {
     pub id: u64,
     pub match_id: u64,
-    pub possession: String,
-    pub shots_on_target: i32,
-    pub passes: i32,
-    pub corners: i32,
-    pub fouls: i32,
+    pub timeline: Vec<Timeline>,
+    pub stats: Stats,
+}
+
+#[derive(Serialize, Deserialize)]
+pub struct Timeline {
+    pub minute: u64,
+    pub description: String,
+    pub team: String,
+}
+
+#[derive(Serialize, Deserialize)]
+pub struct Stats {
+    pub passings: TeamStats,
+    pub tackles: TeamStats,
+    pub shots_on_target: TeamStats,
+    pub fouls: TeamStats,
+    pub corners: TeamStats,
+}
+
+#[derive(Serialize, Deserialize)]
+pub struct TeamStats {
+    pub home: u64,
+    pub away: u64,
 }
