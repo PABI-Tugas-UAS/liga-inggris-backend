@@ -15,6 +15,7 @@ pub struct Match {
 
 #[derive(Deserialize)]
 pub struct MatchReq {
+    pub club_id: Option<u64>,
     pub status: Option<String>,
 }
 

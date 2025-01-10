@@ -5,10 +5,17 @@ pub fn get_matches(req: Option<MatchReq>) -> Vec<Match> {
     read_dummy::<Vec<Match>>("matches/matches.json")
         .into_iter()
         .filter(|_match| match &req {
-            Some(filter) => match &filter.status {
-                Some(status) => compare_lcase(&_match.status, &status),
-                None => true,
-            },
+            Some(filter) => {
+                let matches_club = match filter.club_id {
+                    Some(id) => _match.home_club_id == id || _match.away_club_id == id,
+                    None => true,
+                };
+                let matches_status = match &filter.status {
+                    Some(status) => compare_lcase(&_match.status, &status),
+                    None => true,
+                };
+                matches_club && matches_status
+            }
             None => true,
         })
         .collect()
