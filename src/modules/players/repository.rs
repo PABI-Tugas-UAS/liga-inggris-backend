@@ -6,15 +6,15 @@ pub fn get_players(req: Option<PlayerReq>) -> Vec<Player> {
         .into_iter()
         .filter(|player| match &req {
             Some(filter) => {
-                let matches_club = match filter.club_id {
+                let players_club = match filter.club_id {
                     Some(id) => player.club_id == id,
                     None => true,
                 };
-                let matches_name = match &filter.name {
+                let players_name = match &filter.name {
                     Some(name) => compare_lcase(&player.name, &name),
                     None => true,
                 };
-                matches_club && matches_name
+                players_club && players_name
             }
             None => true,
         })
