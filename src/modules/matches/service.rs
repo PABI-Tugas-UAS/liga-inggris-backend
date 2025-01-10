@@ -1,5 +1,5 @@
 use super::{entity::MatchReq, repository};
-use crate::modules::clubs::service as club_service;
+use crate::modules::clubs::repository as club_repository;
 use serde_json::Value;
 
 pub fn get_matches(req: MatchReq) -> Vec<Value> {
@@ -7,8 +7,8 @@ pub fn get_matches(req: MatchReq) -> Vec<Value> {
     matches
         .into_iter()
         .map(|_match| {
-            let home_club = club_service::get_club_by_id(_match.home_club_id);
-            let away_club = club_service::get_club_by_id(_match.away_club_id);
+            let home_club = club_repository::get_club_by_id(_match.home_club_id);
+            let away_club = club_repository::get_club_by_id(_match.away_club_id);
 
             serde_json::json!({
                 "id": _match.id,
@@ -27,8 +27,8 @@ pub fn get_matches(req: MatchReq) -> Vec<Value> {
 
 pub fn get_match_by_id(id: u64) -> Option<Value> {
     repository::get_match_by_id(id).map(|_match| {
-        let home_club = club_service::get_club_by_id(_match.home_club_id);
-        let away_club = club_service::get_club_by_id(_match.away_club_id);
+        let home_club = club_repository::get_club_by_id(_match.home_club_id);
+        let away_club = club_repository::get_club_by_id(_match.away_club_id);
         let match_stats = repository::get_match_stats(_match.id);
 
         serde_json::json!({
