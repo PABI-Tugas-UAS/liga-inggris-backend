@@ -1,5 +1,5 @@
 use super::{entity::PlayerReq, repository};
-use crate::modules::clubs::service as club_service;
+use crate::modules::clubs::repository as club_repository;
 use serde_json::Value;
 
 pub fn get_players(req: PlayerReq) -> Vec<Value> {
@@ -20,15 +20,14 @@ pub fn get_players(req: PlayerReq) -> Vec<Value> {
 }
 
 pub fn get_player_by_id(id: u64) -> Option<Value> {
-    let club = club_service::get_club_by_id(id);
+    let player = repository::get_player_by_id(id)?;
+    let club = club_repository::get_club_by_id(player.club_id);
 
-    repository::get_player_by_id(id).map(|player| {
-        serde_json::json!({
-            "id": player.id,
-            "club": club,
-            "name": player.name,
-            "position": player.position,
-            "age": player.age,
-        })
-    })
+    Some(serde_json::json!({
+        "id": player.id,
+        "club": club,
+        "name": player.name,
+        "position": player.position,
+        "age": player.age,
+    }))
 }
