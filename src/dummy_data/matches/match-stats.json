@@ -282,266 +282,121 @@
   {
     "id": 6,
     "match_id": 6,
-    "timeline": [
-      {
-        "minute": 30,
-        "description": "Goal by Gabriel Martinelli",
-        "team": "home"
-      },
-      {
-        "minute": 45,
-        "description": "Yellow card for Conor Gallagher",
-        "team": "away"
-      },
-      {
-        "minute": 60,
-        "description": "Yellow card for Thiago Silva",
-        "team": "away"
-      },
-      {
-        "minute": 75,
-        "description": "Goal by Bukayo Saka",
-        "team": "home"
-      },
-      {
-        "minute": 88,
-        "description": "Red card for Mykhailo Mudryk",
-        "team": "away"
-      }
-    ],
+    "timeline": [],
     "stats": {
-      "passings": {
-        "home": 490,
-        "away": 430
-      },
-      "tackles": {
-        "home": 14,
-        "away": 13
-      },
-      "shots_on_target": {
-        "home": 7,
-        "away": 4
-      },
-      "fouls": {
-        "home": 9,
-        "away": 12
-      },
-      "corners": {
-        "home": 6,
-        "away": 4
-      }
+      "passings": { "home": 0, "away": 0 },
+      "tackles": { "home": 0, "away": 0 },
+      "shots_on_target": { "home": 0, "away": 0 },
+      "fouls": { "home": 0, "away": 0 },
+      "corners": { "home": 0, "away": 0 }
     }
   },
   {
     "id": 7,
     "match_id": 7,
-    "timeline": [
-      {
-        "minute": 10,
-        "description": "Goal by Ivan Toney",
-        "team": "home"
-      },
-      {
-        "minute": 35,
-        "description": "Yellow card for Rico Henry",
-        "team": "home"
-      },
-      {
-        "minute": 55,
-        "description": "Goal by Darwin Núñez",
-        "team": "away"
-      },
-      {
-        "minute": 70,
-        "description": "Yellow card for Fabinho",
-        "team": "away"
-      },
-      {
-        "minute": 78,
-        "description": "Red card for Ethan Pinnock",
-        "team": "home"
-      }
-    ],
+    "timeline": [],
     "stats": {
-      "passings": {
-        "home": 430,
-        "away": 440
-      },
-      "tackles": {
-        "home": 15,
-        "away": 16
-      },
-      "shots_on_target": {
-        "home": 6,
-        "away": 7
-      },
-      "fouls": {
-        "home": 11,
-        "away": 9
-      },
-      "corners": {
-        "home": 5,
-        "away": 6
-      }
+      "passings": { "home": 0, "away": 0 },
+      "tackles": { "home": 0, "away": 0 },
+      "shots_on_target": { "home": 0, "away": 0 },
+      "fouls": { "home": 0, "away": 0 },
+      "corners": { "home": 0, "away": 0 }
     }
   },
   {
     "id": 8,
     "match_id": 8,
-    "timeline": [
-      {
-        "minute": 25,
-        "description": "Goal by Philip Billing",
-        "team": "home"
-      },
-      {
-        "minute": 40,
-        "description": "Goal by Kai Havertz",
-        "team": "away"
-      },
-      {
-        "minute": 45,
-        "description": "Yellow card for Ryan Christie",
-        "team": "home"
-      },
-      {
-        "minute": 65,
-        "description": "Yellow card for Reece James",
-        "team": "away"
-      },
-      {
-        "minute": 88,
-        "description": "Goal by Raheem Sterling",
-        "team": "away"
-      }
-    ],
+    "timeline": [],
     "stats": {
-      "passings": {
-        "home": 410,
-        "away": 450
-      },
-      "tackles": {
-        "home": 13,
-        "away": 14
-      },
-      "shots_on_target": {
-        "home": 5,
-        "away": 6
-      },
-      "fouls": {
-        "home": 8,
-        "away": 10
-      },
-      "corners": {
-        "home": 4,
-        "away": 5
-      }
+      "passings": { "home": 0, "away": 0 },
+      "tackles": { "home": 0, "away": 0 },
+      "shots_on_target": { "home": 0, "away": 0 },
+      "fouls": { "home": 0, "away": 0 },
+      "corners": { "home": 0, "away": 0 }
     }
   },
   {
     "id": 9,
     "match_id": 9,
-    "timeline": [
-      {
-        "minute": 15,
-        "description": "Goal by Marcus Rashford",
-        "team": "home"
-      },
-      {
-        "minute": 33,
-        "description": "Yellow card for Casemiro",
-        "team": "home"
-      },
-      {
-        "minute": 55,
-        "description": "Yellow card for Kieran Trippier",
-        "team": "away"
-      },
-      {
-        "minute": 70,
-        "description": "Goal by Jadon Sancho",
-        "team": "home"
-      },
-      {
-        "minute": 88,
-        "description": "Red card for Fabian Schär",
-        "team": "away"
-      }
-    ],
+    "timeline": [],
     "stats": {
-      "passings": {
-        "home": 470,
-        "away": 410
-      },
-      "tackles": {
-        "home": 14,
-        "away": 12
-      },
-      "shots_on_target": {
-        "home": 8,
-        "away": 3
-      },
-      "fouls": {
-        "home": 9,
-        "away": 11
-      },
-      "corners": {
-        "home": 7,
-        "away": 5
-      }
+      "passings": { "home": 0, "away": 0 },
+      "tackles": { "home": 0, "away": 0 },
+      "shots_on_target": { "home": 0, "away": 0 },
+      "fouls": { "home": 0, "away": 0 },
+      "corners": { "home": 0, "away": 0 }
     }
   },
   {
     "id": 10,
     "match_id": 10,
-    "timeline": [
-      {
-        "minute": 5,
-        "description": "Goal by Callum Wilson",
-        "team": "home"
-      },
-      {
-        "minute": 25,
-        "description": "Yellow card for Joelinton",
-        "team": "home"
-      },
-      {
-        "minute": 40,
-        "description": "Goal by Gabriel Martinelli",
-        "team": "away"
-      },
-      {
-        "minute": 70,
-        "description": "Yellow card for Declan Rice",
-        "team": "away"
-      },
-      {
-        "minute": 75,
-        "description": "Red card for Allan Saint-Maximin",
-        "team": "home"
-      }
-    ],
+    "timeline": [],
     "stats": {
-      "passings": {
-        "home": 450,
-        "away": 440
-      },
-      "tackles": {
-        "home": 15,
-        "away": 14
-      },
-      "shots_on_target": {
-        "home": 6,
-        "away": 5
-      },
-      "fouls": {
-        "home": 10,
-        "away": 8
-      },
-      "corners": {
-        "home": 5,
-        "away": 4
-      }
+      "passings": { "home": 0, "away": 0 },
+      "tackles": { "home": 0, "away": 0 },
+      "shots_on_target": { "home": 0, "away": 0 },
+      "fouls": { "home": 0, "away": 0 },
+      "corners": { "home": 0, "away": 0 }
+    }
+  },
+  {
+    "id": 11,
+    "match_id": 11,
+    "timeline": [],
+    "stats": {
+      "passings": { "home": 0, "away": 0 },
+      "tackles": { "home": 0, "away": 0 },
+      "shots_on_target": { "home": 0, "away": 0 },
+      "fouls": { "home": 0, "away": 0 },
+      "corners": { "home": 0, "away": 0 }
+    }
+  },
+  {
+    "id": 12,
+    "match_id": 12,
+    "timeline": [],
+    "stats": {
+      "passings": { "home": 0, "away": 0 },
+      "tackles": { "home": 0, "away": 0 },
+      "shots_on_target": { "home": 0, "away": 0 },
+      "fouls": { "home": 0, "away": 0 },
+      "corners": { "home": 0, "away": 0 }
+    }
+  },
+  {
+    "id": 13,
+    "match_id": 13,
+    "timeline": [],
+    "stats": {
+      "passings": { "home": 0, "away": 0 },
+      "tackles": { "home": 0, "away": 0 },
+      "shots_on_target": { "home": 0, "away": 0 },
+      "fouls": { "home": 0, "away": 0 },
+      "corners": { "home": 0, "away": 0 }
+    }
+  },
+  {
+    "id": 14,
+    "match_id": 14,
+    "timeline": [],
+    "stats": {
+      "passings": { "home": 0, "away": 0 },
+      "tackles": { "home": 0, "away": 0 },
+      "shots_on_target": { "home": 0, "away": 0 },
+      "fouls": { "home": 0, "away": 0 },
+      "corners": { "home": 0, "away": 0 }
+    }
+  },
+  {
+    "id": 15,
+    "match_id": 15,
+    "timeline": [],
+    "stats": {
+      "passings": { "home": 0, "away": 0 },
+      "tackles": { "home": 0, "away": 0 },
+      "shots_on_target": { "home": 0, "away": 0 },
+      "fouls": { "home": 0, "away": 0 },
+      "corners": { "home": 0, "away": 0 }
     }
   }
 ]
